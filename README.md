@@ -1,5 +1,12 @@
 # Multi-Agent Data & Analytics Platform
 
+## Overview
+
+A multi-agent data analysis service with three roles named profiler, analyst and critic. The `POST /agent/run` endpoint runs a request through those roles, and any request to drop tables is refused. The README also describes a `/v1` ops plane for workspaces, tenant isolation, job approval and audit.
+
+- **Built with:** Python, pytest, GitHub Actions
+- **Scope:** Local lab with tests; it does not call a hosted model and refuses production apply.
+
 <!-- project-guide:start -->
 ## Project guide
 
